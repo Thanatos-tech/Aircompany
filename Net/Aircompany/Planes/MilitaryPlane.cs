@@ -22,9 +22,9 @@ namespace Aircompany.Planes
 
         public override int GetHashCode()
         {
-            var hashCode = 0;
-            hashCode = hashCode + base.GetHashCode();
-            hashCode = hashCode + Type.GetHashCode();
+            var hashCode = 1701194404;
+            hashCode = hashCode * -1521134295 + base.GetHashCode();
+            hashCode = hashCode * -1521134295 + Type.GetHashCode();
             return hashCode;
         }
 
